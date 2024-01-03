@@ -30,7 +30,7 @@ if(Lines < 1):
 Asterisks = 1
 
 for I in range(Lines):
-  for J in range(Lines-I-1):
+  for J in range(1, Lines-I):
     Eprint(" ")
 
   for K in range(Asterisks):
