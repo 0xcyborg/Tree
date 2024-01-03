@@ -47,3 +47,9 @@ if(Option == "1"):
       Eprint(" ")
     
     Eprint("|\n")
+else:
+  for I in range(3):
+    for J in range(Asterisks - 2):
+      Eprint(" ")
+    
+    Eprint("|\n")
