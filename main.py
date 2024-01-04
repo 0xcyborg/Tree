@@ -36,7 +36,7 @@ for I in range(Lines):
   for K in range(Asterisks):
     Eprint("*")
 
-  Asterisks = Asterisks + Number
+  Asterisks += Number
   Eprint("\n")
 
 if(Option == "1"):
