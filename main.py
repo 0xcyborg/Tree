@@ -1,4 +1,4 @@
-# Happy New Year (2024)
+# 2024
 
 def Eprint(Data) -> None:
   print(Data, end = "")
